@@ -7,33 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D906C0DC18E74B060052DAB6 /* DCCalendarSearchBarTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = D906C0DB18E74B060052DAB6 /* DCCalendarSearchBarTransitionAnimator.m */; };
 		D96AA33C18E720FE0053E780 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D96AA33B18E720FE0053E780 /* Foundation.framework */; };
 		D96AA33E18E720FE0053E780 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D96AA33D18E720FE0053E780 /* CoreGraphics.framework */; };
 		D96AA34018E720FE0053E780 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D96AA33F18E720FE0053E780 /* UIKit.framework */; };
 		D96AA34618E720FE0053E780 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D96AA34418E720FE0053E780 /* InfoPlist.strings */; };
 		D96AA34818E720FE0053E780 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D96AA34718E720FE0053E780 /* main.m */; };
 		D96AA34C18E720FE0053E780 /* DCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D96AA34B18E720FE0053E780 /* DCAppDelegate.m */; };
-		D96AA34F18E720FE0053E780 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D96AA34D18E720FE0053E780 /* Main.storyboard */; };
 		D96AA35218E720FE0053E780 /* DCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D96AA35118E720FE0053E780 /* DCViewController.m */; };
 		D96AA35418E720FE0053E780 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D96AA35318E720FE0053E780 /* Images.xcassets */; };
-		D96AA35B18E720FE0053E780 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D96AA35A18E720FE0053E780 /* XCTest.framework */; };
-		D96AA35C18E720FE0053E780 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D96AA33B18E720FE0053E780 /* Foundation.framework */; };
-		D96AA35D18E720FE0053E780 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D96AA33F18E720FE0053E780 /* UIKit.framework */; };
-		D96AA36518E720FE0053E780 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D96AA36318E720FE0053E780 /* InfoPlist.strings */; };
-		D96AA36718E720FE0053E780 /* CalendarSearchBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D96AA36618E720FE0053E780 /* CalendarSearchBarTests.m */; };
+		D96AA37218E721780053E780 /* DCCalendarSearchBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D96AA37118E721780053E780 /* DCCalendarSearchBarViewController.m */; };
+		D96AA37418E72CDA0053E780 /* fakeNames.json in Resources */ = {isa = PBXBuildFile; fileRef = D96AA37318E72CDA0053E780 /* fakeNames.json */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		D96AA35E18E720FE0053E780 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D96AA33018E720FE0053E780 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D96AA33718E720FE0053E780;
-			remoteInfo = CalendarSearchBar;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		D906C0DA18E74B060052DAB6 /* DCCalendarSearchBarTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCCalendarSearchBarTransitionAnimator.h; sourceTree = "<group>"; };
+		D906C0DB18E74B060052DAB6 /* DCCalendarSearchBarTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCCalendarSearchBarTransitionAnimator.m; sourceTree = "<group>"; };
 		D96AA33818E720FE0053E780 /* CalendarSearchBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalendarSearchBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D96AA33B18E720FE0053E780 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D96AA33D18E720FE0053E780 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -44,15 +33,13 @@
 		D96AA34918E720FE0053E780 /* CalendarSearchBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CalendarSearchBar-Prefix.pch"; sourceTree = "<group>"; };
 		D96AA34A18E720FE0053E780 /* DCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCAppDelegate.h; sourceTree = "<group>"; };
 		D96AA34B18E720FE0053E780 /* DCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCAppDelegate.m; sourceTree = "<group>"; };
-		D96AA34E18E720FE0053E780 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D96AA35018E720FE0053E780 /* DCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCViewController.h; sourceTree = "<group>"; };
 		D96AA35118E720FE0053E780 /* DCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCViewController.m; sourceTree = "<group>"; };
 		D96AA35318E720FE0053E780 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		D96AA35918E720FE0053E780 /* CalendarSearchBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalendarSearchBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D96AA35A18E720FE0053E780 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		D96AA36218E720FE0053E780 /* CalendarSearchBarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CalendarSearchBarTests-Info.plist"; sourceTree = "<group>"; };
-		D96AA36418E720FE0053E780 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D96AA36618E720FE0053E780 /* CalendarSearchBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalendarSearchBarTests.m; sourceTree = "<group>"; };
+		D96AA37018E721780053E780 /* DCCalendarSearchBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCCalendarSearchBarViewController.h; sourceTree = "<group>"; };
+		D96AA37118E721780053E780 /* DCCalendarSearchBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCCalendarSearchBarViewController.m; sourceTree = "<group>"; };
+		D96AA37318E72CDA0053E780 /* fakeNames.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fakeNames.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,24 +53,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D96AA35618E720FE0053E780 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D96AA35B18E720FE0053E780 /* XCTest.framework in Frameworks */,
-				D96AA35D18E720FE0053E780 /* UIKit.framework in Frameworks */,
-				D96AA35C18E720FE0053E780 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D906C0DD18E85ACB0052DAB6 /* DCCalendarSearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				D96AA37018E721780053E780 /* DCCalendarSearchBarViewController.h */,
+				D96AA37118E721780053E780 /* DCCalendarSearchBarViewController.m */,
+				D906C0DA18E74B060052DAB6 /* DCCalendarSearchBarTransitionAnimator.h */,
+				D906C0DB18E74B060052DAB6 /* DCCalendarSearchBarTransitionAnimator.m */,
+			);
+			name = DCCalendarSearchBar;
+			sourceTree = "<group>";
+		};
 		D96AA32F18E720FE0053E780 = {
 			isa = PBXGroup;
 			children = (
 				D96AA34118E720FE0053E780 /* CalendarSearchBar */,
-				D96AA36018E720FE0053E780 /* CalendarSearchBarTests */,
 				D96AA33A18E720FE0053E780 /* Frameworks */,
 				D96AA33918E720FE0053E780 /* Products */,
 			);
@@ -93,7 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				D96AA33818E720FE0053E780 /* CalendarSearchBar.app */,
-				D96AA35918E720FE0053E780 /* CalendarSearchBarTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,11 +98,12 @@
 		D96AA34118E720FE0053E780 /* CalendarSearchBar */ = {
 			isa = PBXGroup;
 			children = (
+				D906C0DD18E85ACB0052DAB6 /* DCCalendarSearchBar */,
 				D96AA34A18E720FE0053E780 /* DCAppDelegate.h */,
 				D96AA34B18E720FE0053E780 /* DCAppDelegate.m */,
-				D96AA34D18E720FE0053E780 /* Main.storyboard */,
 				D96AA35018E720FE0053E780 /* DCViewController.h */,
 				D96AA35118E720FE0053E780 /* DCViewController.m */,
+				D96AA37318E72CDA0053E780 /* fakeNames.json */,
 				D96AA35318E720FE0053E780 /* Images.xcassets */,
 				D96AA34218E720FE0053E780 /* Supporting Files */,
 			);
@@ -130,24 +117,6 @@
 				D96AA34418E720FE0053E780 /* InfoPlist.strings */,
 				D96AA34718E720FE0053E780 /* main.m */,
 				D96AA34918E720FE0053E780 /* CalendarSearchBar-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		D96AA36018E720FE0053E780 /* CalendarSearchBarTests */ = {
-			isa = PBXGroup;
-			children = (
-				D96AA36618E720FE0053E780 /* CalendarSearchBarTests.m */,
-				D96AA36118E720FE0053E780 /* Supporting Files */,
-			);
-			path = CalendarSearchBarTests;
-			sourceTree = "<group>";
-		};
-		D96AA36118E720FE0053E780 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				D96AA36218E720FE0053E780 /* CalendarSearchBarTests-Info.plist */,
-				D96AA36318E720FE0053E780 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -172,24 +141,6 @@
 			productReference = D96AA33818E720FE0053E780 /* CalendarSearchBar.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D96AA35818E720FE0053E780 /* CalendarSearchBarTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D96AA36D18E720FE0053E780 /* Build configuration list for PBXNativeTarget "CalendarSearchBarTests" */;
-			buildPhases = (
-				D96AA35518E720FE0053E780 /* Sources */,
-				D96AA35618E720FE0053E780 /* Frameworks */,
-				D96AA35718E720FE0053E780 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D96AA35F18E720FE0053E780 /* PBXTargetDependency */,
-			);
-			name = CalendarSearchBarTests;
-			productName = CalendarSearchBarTests;
-			productReference = D96AA35918E720FE0053E780 /* CalendarSearchBarTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -199,11 +150,6 @@
 				CLASSPREFIX = DC;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Diogo do Carmo";
-				TargetAttributes = {
-					D96AA35818E720FE0053E780 = {
-						TestTargetID = D96AA33718E720FE0053E780;
-					};
-				};
 			};
 			buildConfigurationList = D96AA33318E720FE0053E780 /* Build configuration list for PBXProject "CalendarSearchBar" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -219,7 +165,6 @@
 			projectRoot = "";
 			targets = (
 				D96AA33718E720FE0053E780 /* CalendarSearchBar */,
-				D96AA35818E720FE0053E780 /* CalendarSearchBarTests */,
 			);
 		};
 /* End PBXProject section */
@@ -231,15 +176,7 @@
 			files = (
 				D96AA35418E720FE0053E780 /* Images.xcassets in Resources */,
 				D96AA34618E720FE0053E780 /* InfoPlist.strings in Resources */,
-				D96AA34F18E720FE0053E780 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D96AA35718E720FE0053E780 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D96AA36518E720FE0053E780 /* InfoPlist.strings in Resources */,
+				D96AA37418E72CDA0053E780 /* fakeNames.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,48 +190,18 @@
 				D96AA34818E720FE0053E780 /* main.m in Sources */,
 				D96AA35218E720FE0053E780 /* DCViewController.m in Sources */,
 				D96AA34C18E720FE0053E780 /* DCAppDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D96AA35518E720FE0053E780 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D96AA36718E720FE0053E780 /* CalendarSearchBarTests.m in Sources */,
+				D906C0DC18E74B060052DAB6 /* DCCalendarSearchBarTransitionAnimator.m in Sources */,
+				D96AA37218E721780053E780 /* DCCalendarSearchBarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		D96AA35F18E720FE0053E780 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D96AA33718E720FE0053E780 /* CalendarSearchBar */;
-			targetProxy = D96AA35E18E720FE0053E780 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D96AA34418E720FE0053E780 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				D96AA34518E720FE0053E780 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		D96AA34D18E720FE0053E780 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D96AA34E18E720FE0053E780 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D96AA36318E720FE0053E780 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D96AA36418E720FE0053E780 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -380,6 +287,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CalendarSearchBar/CalendarSearchBar-Prefix.pch";
 				INFOPLIST_FILE = "CalendarSearchBar/CalendarSearchBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -393,48 +301,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CalendarSearchBar/CalendarSearchBar-Prefix.pch";
 				INFOPLIST_FILE = "CalendarSearchBar/CalendarSearchBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		D96AA36E18E720FE0053E780 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CalendarSearchBar.app/CalendarSearchBar";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CalendarSearchBar/CalendarSearchBar-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "CalendarSearchBarTests/CalendarSearchBarTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		D96AA36F18E720FE0053E780 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CalendarSearchBar.app/CalendarSearchBar";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CalendarSearchBar/CalendarSearchBar-Prefix.pch";
-				INFOPLIST_FILE = "CalendarSearchBarTests/CalendarSearchBarTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -457,14 +326,7 @@
 				D96AA36C18E720FE0053E780 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		D96AA36D18E720FE0053E780 /* Build configuration list for PBXNativeTarget "CalendarSearchBarTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D96AA36E18E720FE0053E780 /* Debug */,
-				D96AA36F18E720FE0053E780 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
