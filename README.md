@@ -11,4 +11,6 @@ This implementation relies on iOS 7.0 UIViewControllerTransitioningDelegate, so 
 
 ####Usage
 
-Simply import it in your project and use the designated initializer: "initWithDataSourceViewController:". The UISearchBar is exposed for appearance customization. Check out the demo for further assistance.
+Simply import it in your project and use the designated initializer: "initWithDataSourceViewController:". When you need the search, present the view controller.
+The UISearchBar is exposed for appearance customization. 
+Check out the demo for further assistance.
