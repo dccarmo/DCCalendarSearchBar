@@ -72,7 +72,10 @@
 {
     [self.searchController setActive:NO animated:YES];
     [self.searchBar resignFirstResponder];
-    [self.dataSourceViewController dismissViewControllerAnimated:YES completion:nil];
+    
+    if (![self isBeingDismissed]) {
+        [self.dataSourceViewController dismissViewControllerAnimated:YES completion:nil];
+    }
 }
 
 #pragma mark - UIViewControllerTransitioningDelegate
