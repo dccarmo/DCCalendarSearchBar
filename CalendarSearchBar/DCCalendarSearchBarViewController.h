@@ -14,6 +14,6 @@
 @property (nonatomic) UISearchBar *searchBar;
 
 //Call this initializer to set everything up
-- (instancetype)initWithDataSourceViewController:(id)dataSourceViewController;
+- (instancetype)initWithDataSourceViewController:(UIViewController)dataSourceViewController;
 
 @end

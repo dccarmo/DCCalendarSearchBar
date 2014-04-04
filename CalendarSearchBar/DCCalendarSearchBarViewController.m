@@ -13,14 +13,14 @@
 
 @interface DCCalendarSearchBarViewController () <UISearchBarDelegate,UIViewControllerTransitioningDelegate>
 
-@property (nonatomic) UITableViewController *dataSourceViewController;
+@property (nonatomic) UIViewController *dataSourceViewController;
 @property (nonatomic) UISearchDisplayController *searchController;
 
 @end
 
 @implementation DCCalendarSearchBarViewController
 
-- (instancetype)initWithDataSourceViewController:(id)dataSourceViewController
+- (instancetype)initWithDataSourceViewController:(UIViewController *)dataSourceViewController
 {
     self = [super init];
     if (self) {
