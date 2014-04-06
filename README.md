@@ -16,3 +16,7 @@ The UISearchBar is exposed for appearance customization.
 Check out the demo for further assistance.
 
 http://dcarmo.me/post/81231511676/calendar-like-search-bar
+
+####Acknowledgements
+
+http://www.teehanlax.com/blog/custom-uiviewcontroller-transitions/ - Ash Furrow for writing this great article explaining the new UIViewController transitions.
